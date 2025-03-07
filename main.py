@@ -32,13 +32,13 @@ def analyze_image(img):
     - **Mood** (e.g, Happy, Sad, Angry, etc.)
     - **Hair-Color** (e.g, Black, Brown, Blonde, etc.)
     - **Hair-Length** (e.g, Short, Medium, Long)
-    - **Facial-Hair** (e.g, Beard, Mustache, None)
+    - **Facial-Hair** (e.g, Beard, Mustache, Beard and Mustache,  None)
     - **Eye-Color** (e.g, Brown, Blue, Green, etc.)
     - **Glasses** (e.g, Yes, No)
     - **Head-Wear** (e.g, Hat, Cap, None)
     - **Accessories** (e.g, Earrings, Necklace, etc.)
     - **Emotion-Detection** (e.g, Happy, Sad, Angry, Joyful, etc.)
-    - **Confidence-Level** (Accuracy of prediction in percentage)
+    - **Confidence-Level** (Accuracy of prediction in percentage, e.g, 82%, 95%, etc.)
 """
     result = model.generate_content([prompt, img])
 
