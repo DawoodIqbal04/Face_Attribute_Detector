@@ -6,6 +6,9 @@ import PIL.Image
 # Streamlit Page Configuration
 st.set_page_config(page_title='Face-Attributes-Dectector', page_icon='icons/face-scan.png', layout='centered', initial_sidebar_state='auto')
 
+st.markdown("<style> .stApp [data-testid='stToolbar']{ display:none; } </style>", unsafe_allow_html=True)
+
+
 
 #Setting up API and loading model
 os.environ['GOOGLE_API_KEY'] = 'AIzaSyCAvWRmfIUTObnMB0418ouypQgx2rGheCw'
